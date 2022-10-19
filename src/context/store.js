@@ -1,6 +1,4 @@
 import React from "react";
-import task from "../components/Task/Task";
-import { GetDB } from "../actions/getDB";
 import axios from "axios";
 
 const db = {
