@@ -1,0 +1,64 @@
+.task {
+
+  .taskItem {
+    display: flex;
+
+    &:not(:last-child) {
+      margin-bottom: 16px;
+    }
+
+    input {
+      display: none;
+    }
+
+    label {
+      display: inline-flex;
+      align-items: center;
+      cursor: pointer;
+
+      img {
+        margin-right: 15px;
+      }
+    }
+
+    .remove {
+      flex-grow: 1;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+
+      button {
+        display: none;
+        cursor: pointer;
+        color: #B4B4B4;
+        &:hover {
+          box-shadow: unset;
+          color: #000;
+        }
+
+        svg {
+          margin: 0;
+          stroke: none;
+          fill: currentColor;
+        }
+
+      }
+    }
+
+    &:hover {
+      button {
+        display: flex;
+      }
+    }
+  }
+
+  .btn-task {
+    width: auto;
+    svg {
+      width: 16px;
+      height: 16px;
+      margin-right: 18px;
+      stroke: currentColor;
+    }
+  }
+}

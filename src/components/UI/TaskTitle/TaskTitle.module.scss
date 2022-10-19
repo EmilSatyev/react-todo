@@ -1,0 +1,46 @@
+.title {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #F2F2F2;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+
+  h1 {
+    font-size: 32px;
+  }
+
+  .edit, .save {
+    cursor: pointer;
+    margin-left: 15px;
+    color: #B4B4B4;
+
+    svg {
+      fill: currentColor;
+    }
+
+    &:hover svg {
+      fill: #000;
+    }
+  }
+  .save {
+    svg {
+      width: 20px;
+      height: 20px;
+      fill: none !important;
+      stroke: currentColor;
+    }
+    &:hover svg {
+      stroke: #000;
+    }
+  }
+
+  input {
+    display: inline-block;
+    padding: 7px 11px;
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    border-radius: 4px;
+    font-size: 32px;
+    font-weight: 700;
+  }
+}

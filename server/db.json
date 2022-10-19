@@ -14,12 +14,6 @@
   "tasks": [
     {
       "listId": 1,
-      "text": "13",
-      "completed": false,
-      "id": 1
-    },
-    {
-      "listId": 1,
       "text": "123123",
       "completed": false,
       "id": 2
